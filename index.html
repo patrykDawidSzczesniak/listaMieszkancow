@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista mieszkańców</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Tworzenie listy mieszkańców</h1>
+        </div>
+        <div id="text-assign">
+            <div class="text-input">
+                <label>Miasto</label>
+                <input type="text" id="miasto">
+            </div>
+            <div class="text-input">
+                <label>Pesel</label>
+                <input type="text" id="pesel">
+            </div>
+            <div class="text-input">
+                <label>Imię</label>
+               <input type="text" id="imie">
+            </div>
+            <div class="text-input">
+                <label>Nazwisko</label>
+                <input type="text" id="nazwisko">
+            </div>
+        </div>
+        <div id="lower-part">
+            <button id="add-new-citizen">Dodaj mieszkańca</button>
+            <h2>Przykładowy komunikat</h2>
+            <button id="download">Pobierz liste</button>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./script.js"></script>
+<script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+</html>
